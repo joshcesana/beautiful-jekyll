@@ -1,0 +1,15 @@
+group:
+    - files:
+          - source: _includes/
+            dest: _includes/
+          - source: _layouts/
+            dest: _layouts/
+          - source: assets/css/
+            dest: assets/css/
+          - source: assets/js/
+            dest: assets/js/
+          - source: Gemfile
+            dest: Gemfile
+      repos: |
+          joshcesana/minimal-mistakes@sync-test
+          joshcesana/hyde@sync-test
